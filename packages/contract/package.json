@@ -1,0 +1,28 @@
+{
+	"name": "zl-contract",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"migrate": "rm -rf ./output && truffle migrate --network",
+		"compile": "truffle compile && truffle run contract-size",
+		"clean": "rm -rf ./output",
+		"test": "truffle test --debug --network ganache",
+		"debug": "truffle debug --network ganache",
+		"ganache0": "dotenv -- cross-var ganache --server.ws -f https://rinkeby.infura.io/v3/%INFURA_API_KEY% -e 1000000 -m %MNEMONIC%",
+		"ganache1": "dotenv -- cross-var ganache --server.ws -f https://polygon-mainnet.g.alchemy.com/v2/%ALCHEMY_API_KEY% -e 1000000 -m %MNEMONIC% -u 0x0405e31AB5C379BCB710D34e500E009bbB79f584"
+	},
+	"dependencies": {
+		"@aave/core-v3": "^1.13.1",
+		"@openzeppelin/contracts": "^4.5.0",
+		"@openzeppelin/test-helpers": "^0.5.15",
+		"@uniswap/v2-periphery": "^1.1.0-beta.0",
+		"@uniswap/v3-periphery": "^1.4.0",
+		"truffle-contract-size": "^2.0.1"
+	},
+	"devDependencies": {
+		"cross-var": "^1.1.0",
+		"dotenv-cli": "^5.0.0",
+		"prettier-plugin-solidity": "^1.0.0-beta.19"
+	}
+}

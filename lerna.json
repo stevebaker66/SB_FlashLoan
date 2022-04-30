@@ -1,0 +1,9 @@
+{
+  "lerna": "^4.0.0",
+  "packages": [
+    "packages/contract",
+    "packages/web/*"
+  ],
+  "npmClient": "yarn",
+  "version": "independent"
+}
