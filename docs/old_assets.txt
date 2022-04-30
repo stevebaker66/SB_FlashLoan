@@ -1,0 +1,20 @@
+- Accounts
+xanmantheman@gmail.com / Xanthon1005!
+
+- KoinKnight
+https://m.youtube.com/watch?v=Y_8PU4_njAA
+
+Welcome parallel to KoinKnight!.
+Please see the tutorial video on How to do arbitrage in KoinKnight.
+For more information read the articles mentioned below, as they will help you in using KoinKnight more productively.
+(i)Tips of doing arbitrage
+(ii)Take advantage of filters
+(iii)How to set up alerts
+Also join our channel @koinknight_in_alert to receive all updates on KoinKnight.
+
+- Old repositories
+https://github.com/Cloudicrypto/price-bot
+https://github.com/Cloudicrypto/flash-arbitrage-watcher
+https://github.com/Cloudicrypto/Flash-Arb-Trader
+https://github.com/Cloudicrypto/trading-bot
+https://github.com/Cloudicrypto/aaveFlashLoan
